@@ -1,0 +1,7 @@
+---
+layout: ./webc/root.webc
+---
+
+<header><h1>Hi</h1></header>
+<main @raw="content"></main>
+<footer>foot</footer>
