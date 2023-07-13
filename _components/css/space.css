@@ -1,0 +1,57 @@
+
+.-p {
+padding: calc(0.5 * var(--base-line-size));
+}
+
+.-p-x {
+padding-left:  calc(0.5 * var(--base-line-size));
+padding-right:  calc(0.5 * var(--base-line-size));
+}
+
+.-p-y {
+padding-top:  calc(0.5 * var(--base-line-size));
+padding-bottom:  calc(0.5 * var(--base-line-size));
+}
+
+.-p-lg {
+padding: calc(1 * var(--base-line-size));
+}
+
+.-p-lg-x {
+padding-left:  calc(1 * var(--base-line-size));
+padding-right:  calc(1 * var(--base-line-size));
+}
+
+.-p-lg-y {
+padding-top:  calc(1 * var(--base-line-size));
+scroll-padding-top:  calc(1 * var(--base-line-size));
+}
+
+
+.-m {
+margin: calc(0.5 * var(--base-line-size));
+}
+
+.-m-x {
+margin-left:  calc(0.5 * var(--base-line-size));
+margin-right:  calc(0.5 * var(--base-line-size));
+}
+
+.-m-y {
+margin-top:  calc(0.5 * var(--base-line-size));
+margin-bottom:  calc(0.5 * var(--base-line-size));
+}
+
+.-m-lg {
+margin: calc(1 * var(--base-line-size));
+}
+
+.-m-lg-x {
+margin-left:  calc(1 * var(--base-line-size));
+margin-right:  calc(1 * var(--base-line-size));
+}
+
+.-m-lg-y {
+margin-top:  calc(1 * var(--base-line-size));
+margin-bottom:  calc(1 * var(--base-line-size));
+}

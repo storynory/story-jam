@@ -1,0 +1,132 @@
+<nav class="j-nav aqua  ">
+    <ul>
+        <li>
+            <div><a href="#">Logo</a></div>
+            <div class="show-down">
+                <a href="#">
+                    <search></search>
+                </a>
+                <a href="#">
+                    <ham></ham>
+                </a>
+            </div>
+        </li>
+        <li><a href="#"><span>wide Link 1</span></a></li>
+        <li><a href="#"><span>wide Link 2</span></a></li>
+    </ul>
+    <div class="search">
+        <input class="white" type="search" placeholder="search" />
+    </div>
+</nav>
+
+<style>
+    /* Set overflow to hidden and add horizontal padding to the nav */
+    .j-nav {
+        overflow: hidden;
+        padding: 0 0.5em;
+    }
+
+    /* Set display property to flex for all anchor, list item and div elements inside nav */
+    .j-nav a,
+    .j-nav li,
+    .j-nav div {
+        display: flex;
+    }
+
+    /* Set height of the nav and anchor tags, and align items to center */
+    .j-nav,
+    .j-nav a {
+        height: calc(var(--base-line-size) * 2);
+        align-items: center;
+    }
+
+    /* Set padding for anchor tags within the nav */
+    .j-nav a {
+        padding: 0 1em;
+        gap: 20px;
+    }
+
+    /* Make list items take up full width and distribute content space between */
+    .j-nav li {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    /* Media query for screens above a certain width */
+    @media screen and (--md) {
+
+        /* Note: --md is a custom breakpoint which needs to be defined elsewhere like --md: (min-width:768px) */
+        /* Set display property of nav to flex and space content evenly */
+        .j-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Make list items within nav take the width they require */
+        .j-nav li {
+            width: auto;
+        }
+
+        /* Make unordered list within nav flex and wrap items */
+        .j-nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            /* Allow flex items to wrap */
+        }
+
+        /* Hide elements with the class show-down in larger screens */
+        .j-nav .show-down {
+            display: none;
+        }
+    }
+
+    /*************************** THEME ********************************/
+
+    /* Set background color of elements with class aqua */
+    .aqua {
+        background-color: aquamarine;
+    }
+
+    /* Set text color to white */
+    .j-txt-white,
+    .j-text-white a {
+        color: white;
+    }
+
+    /* Style nav buttons */
+    .j-nav-btn {
+        display: inline-block;
+        background: pink;
+        padding: 0.25em 0.5em;
+        border-radius: 6px;
+    }
+
+    /* Change background color on nav button hover */
+    .j-nav-btn:hover {
+        background-color: antiquewhite;
+    }
+
+    /* Add outline on nav button active state */
+    .j-nav-btn:active {
+        outline: 1px solid blue;
+    }
+
+    /* Style input elements within nav */
+    .j-nav input {
+        padding: 0 0.5em;
+        width: 100%;
+    }
+
+    /* Set font size for elements with class j-nav-small */
+    .j-nav-small {
+        font-size: 16px;
+    }
+
+    /* Modify height and align items to center for elements with class j-nav-height-sm */
+    .j-nav-height-sm,
+    .j-nav .j-nav-height-sm {
+        height: 2em;
+        align-items: center;
+    }
+</style>

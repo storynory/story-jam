@@ -1,0 +1,177 @@
+<nav class="s-nav dark j-txt-white j-bk-prime">
+    <ul class="third">
+        <li>
+            <div class=" show-down">
+                <a href="#">
+                    <search></search>
+                </a>
+            </div>
+            <div class="show-down brand"><a href="#">Storynory</a></div>
+            <div class="show-down">
+                <a href="#">
+                    <ham></ham>
+                </a>
+            </div>
+        </li>
+        <li><a href="#"><span>wide link 1</span></a></li>
+
+    </ul>
+
+    <div class="search brand third txt-center large">
+        <div><a href=" #">Storynory</a></div>
+    </div>
+    <div class="search third">
+        <form class="-p-x j-bk-prime"><input class="white -p-x" type="search" placeholder="search" /></form>
+    </div>
+</nav>
+
+
+
+
+<style>
+    /* Set overflow to hidden and add horizontal padding to the nav */
+    .s-nav {
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .s-nav input {
+        line-height: 1.5rem;
+    }
+
+    .txt-center {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+
+    /* Set display property to flex for all anchor, list item and div elements inside nav */
+    .s-nav a,
+    .s-nav li,
+    .s-nav div {
+        display: flex;
+    }
+
+    /* Set height of the nav and anchor tags, and align items to center */
+    .s-nav,
+    .s-nav a {
+        height: 3em;
+        align-items: center;
+    }
+
+    /* Set padding for anchor tags within the nav */
+    .s-nav a {
+        padding: 0 1em;
+
+    }
+
+    /* Make list items take up full width and distribute content space between */
+    .s-nav li {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    /* Media query for screens above a certain width
+needs config with lightening CSS to use variables in media queries
+ */
+    @media screen and (--md) {
+
+        /* Note: --md is a custom breakpoint which needs to be defined elsewhere like --md: (min-width:768px) */
+        /* Set display property of nav to flex and space content evenly */
+        .s-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .third {
+            width: 33%;
+            flex-basis: 33%;
+        }
+
+        .s-nav div.third,
+        .s-nav ul.third,
+        .s-nav .third {
+            flex: 1;
+
+        }
+
+
+
+        /* Make list items within nav take the width they require */
+        .s-nav li {
+            width: auto;
+        }
+
+        /* Make unordered list within nav flex and wrap items */
+        .s-nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            /* Allow flex items to wrap */
+        }
+
+        /* Hide elements with the class show-down in larger screens */
+        .s-nav .show-down {
+            display: none;
+        }
+
+        .start {
+
+            order: -1
+        }
+
+
+
+    }
+
+    /*************************** THEME ********************************/
+
+    /* Set background color of elements with class aqua */
+
+
+    /* Set text color to white */
+    .j-txt-white,
+    .j-text-white a {
+        color: white;
+    }
+
+    /* Style nav buttons */
+    .s-nav-btn {
+        display: inline-block;
+        background: pink;
+        padding: 0.25em 0.5em;
+        border-radius: 6px;
+    }
+
+    /* Change background color on nav button hover */
+    .s-nav-btn:hover {
+        background-color: antiquewhite;
+    }
+
+    /* Add outline on nav button active state */
+    .s-nav-btn:active {
+        outline: 1px solid blue;
+    }
+
+    /* Style input elements within nav */
+    .s-nav form,
+    .s-nav input {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: black;
+    }
+
+    /* Set font size for elements with class s-nav-small */
+    .s-nav-small {
+        font-size: 16px;
+    }
+
+    /* Modify height and align items to center for elements with class s-nav-height-sm */
+    .s-nav-height-sm,
+    .s-nav .s-nav-height-sm {
+        height: 2em;
+        align-items: center;
+    }
+</style>

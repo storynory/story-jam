@@ -1,0 +1,3 @@
+<ul webc:for="post of data">
+    <li> <a :href="post.url" @text="post.data.title"></a></li>
+</ul>

@@ -1,0 +1,81 @@
+
+body {
+  font-family: 'lato', 'sans-serif';
+}
+
+
+main {
+        font-size: var(--base-font-size);
+        line-height: var(--base-line-size);  
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-weight: 500;
+        font-family: Quicksand, sans-serif;
+    }
+.brand {
+  font-family: Quicksand, sans-serif;
+}
+
+    h1.super {
+        font-size: calc(var(--base-font-scale) * var(--base-font-scale) * var(--base-font-scale) * var(--base-font-scale) * 2rem);
+        line-height: calc(5 * var(--base-line-size));
+        margin-bottom: calc(2 * var(--base-line-size));
+        margin-top: calc(2 * var(--base-line-size));
+    }
+
+    h1 {
+
+        font-size: calc(calc(2 + var(--base-font-scale)) * 1rem);
+        line-height: calc(2.5 * var(--base-line-size));
+        margin-top: var(--base-line-size);
+    }
+
+
+
+
+    h2 {
+
+        /* font-size: calc(var(--base-font-scale) * var(--base-font-scale) * 1rem);*/
+        font-size: pow(1.68, 8);
+        line-height: calc(2 * var(--base-line-size));
+        padding-top: calc(2 * var(--base-line-size));
+    }
+
+    h3 {
+        line-height: calc(1.5 * var(--base-line-size));
+        font-size: calc(var(--base-font-scale) * 1rem);
+        margin-bottom: calc(var(--base-font-scale) * -0.5rem);
+        margin-top: calc(var(--base-font-scale) * 1rem);
+    }
+
+    h4 {
+        line-height: calc(1.5 * var(--base-line-size));
+        font-size: 1rem;
+        padding-top: calc(var(--base-line-size) * 0.5);
+    }
+
+
+    p {
+        margin-top: calc(var(--base-line-size) / 2);
+    }
+
+    .large {
+  font-size: calc(var(--base-font-scale) * 1.1rem);
+}
+
+    p.lede {
+        font-weight: 500;
+        font-size: calc(var(--base-font-scale) * 1rem);
+}
+
+    p.small {
+        margin-top: calc(var(--base-line-size) / 4);
+        font-size: calc(0.875 * var(--base-font-size));
+    }
+
+.txt-center {
+    text-align: center;
+}

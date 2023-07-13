@@ -1,0 +1,23 @@
+  .j-bk-prime {
+        background-color: #007A5E;
+    }
+
+    .j-bk-second {
+        background-color: #D21F3C;
+    }
+
+    .j-txt-white {
+        color: white
+    }
+
+    .j-txt-prime {
+        color: #FF6161;
+    }
+
+    .j-txt-second {
+        color: #FF6161;
+    }
+
+    a {
+        color: inherit;
+    }

@@ -1,0 +1,5 @@
+---
+layout: shell.webc
+---
+
+<div class="content" @html="content"></div>

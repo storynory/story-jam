@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <j-head-meta>
+    </j-head-meta>
+
+    <body>
+        <story-nav :title="site.siteName" :links="site.siteMainNavigation"></story-nav>
+
+        <main class="page -p">
+            <div class="containter ">
+
+                <div @html="content"></div>
+            </div>
+
+        </main>
+
+        <j-footer></j-footer>
+        <script @raw="getBundle('js', 'defer')" webc:keep></script>
+    </body>
+
+
+</html>
+
+<style>
+    .container {
+        position: relative;
+    }
+
+    main {
+        margin: auto;
+        background: ivory;
+
+    }
+</style>

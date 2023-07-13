@@ -1,11 +1,21 @@
 {
+  "name": "story-jam",
+  "version": "1.0.0",
+  "description": "Storynory Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-webc": "^0.11.1"
-  },
-  "scripts": {
-    "serve": "npx @11ty/eleventy --serve",
-    "dryrun": "npx @11ty/eleventy --dryrun",
-    "increment": "npx @11ty/eleventy --serve --incremental"
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "browserslist": "^4.21.9",
+    "lightningcss": "^1.21.5",
+    "markdown-it-imsize": "^2.0.1",
+    "terser": "^5.19.0"
   }
 }

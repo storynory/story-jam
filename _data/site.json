@@ -1,0 +1,41 @@
+{
+  "siteName": "Storynory",
+  "siteTag": "Free audio stories for kids",
+  "siteDescription": "Free audio stories etc",
+  "siteMainNavigation": [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ],
+   "site_second-navitation" : [
+    {  
+        "name": "original",
+        "link": "/original"
+    },
+    {  
+        "name": "fairytales",
+        "link": "/fairytales"
+    },
+    {  
+        "name": "educational",
+        "link": "/educational"
+    },
+    {  
+        "name": "classic authors",
+        "link": "/classic"
+    },
+    {  
+        "name": "poems and music",
+        "link": "/poems"
+    }
+ ]
+}

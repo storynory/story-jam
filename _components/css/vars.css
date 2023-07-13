@@ -1,0 +1,30 @@
+ /* Modern Minimalistic CSS Reset */
+
+    /* @custom-media variables are  a draft CSS spec.  
+    They are used for breakpoints in media queries. 
+    Lightning CSS reduces them to standard CSS. 
+    */
+    /*Mobile first and up?*/
+    @custom-media --sm (min-width: 576px);
+    @custom-media --md (min-width: 776px);
+    @custom-media --lg (min-width: 992px);
+    @custom-media --xl (min-width: 1200px);
+    @custom-media --xxl (min-width: 1400px);
+
+
+    /*targetting specific screens */
+    @custom-media --mob (width < 775px);
+    @custom-media --slate (width > 576px) and (width < 777px);
+    @custom-media --tab (width > 776px) and (width < 993px);
+    @custom-media --lap (width > 992px) and (width < 1201px);
+    @custom-media --desk (width > 1200px) and (width < 1400px);
+
+    :root {
+
+    
+     --base-font-size: 1.25rem;
+        --base-line-size: 2rem;
+        --base-font-scale: 1.618;
+
+
+    }

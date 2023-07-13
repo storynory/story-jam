@@ -1,0 +1,16 @@
+<h2>Install</h2>
+<p>npm init -y
+npm install @11ty/eleventy --save-dev
+npx @11ty/eleventy
+npx @11ty/eleventy --serve</p>
+<h2>Set Up</h2>
+<p>I try to stay mainly to the defaul 11ty structure. Some folders are declared in the config, &quot;.eleventy.js:,   The site's index file is in the root of the project.  Posts are in a folder called &quot;posts&quot;, layouts in &quot;_layouts&quot;, data into &quot;_data&quot;, webc components in &quot;_components&quot;. NB  css is in &quot;_components/css&quot;.</p>
+<h2>CSS</h2>
+11ty bundles the most specific CSS at the top. "Most specific" means which template it is in.  Do a deeper, nested template is "more specific".  This can be a problem. 
+<p>If we link to a stylesheet in the head &quot;css/styles.css&quot;
+11ty will look for styles to bundle in &quot;_components/css/styles.css&quot;.
+We can link to &quot;vars.css&quot;, reset.css&quot;, &quot;colors.css&quot;, &quot;type.css&quot; etc
+in the  head of the site.  11ty will bundle them inline in the right order for us.</p>
+<p>If we wanted to keep a link to a stylesheet, eg for Google fonts, we can use webc:keep in the link.</p>
+<h2>Webc Buckets</h2>
+<h2>Lightning CSS</h2>
