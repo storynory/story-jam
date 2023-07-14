@@ -1,0 +1,24 @@
+.image-full {
+    width: 100%;
+    height: auto;
+    margin: var(--base-line-size) auto;
+}
+
+.image-half {
+    width: 50%;
+    height: auto;
+    margin: var(--base-line-size) auto;
+}
+
+.image-quarter {
+    width: 25%;
+    height: auto;
+    margin: var(--base-line-size) auto;
+}
+
+.image-padding {
+    width: calc(100% - 2 * var(--base-line-size));
+    height: auto;
+    padding: var(--base-line-size);
+    margin: var(--base-line-size) auto;
+}

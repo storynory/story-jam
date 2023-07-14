@@ -6,7 +6,7 @@
                     <search></search>
                 </a>
             </div>
-            <div class="show-down brand"><a href="#">Storynory</a></div>
+            <div class="show-down brand"><a href="/">Storynory</a></div>
             <div class="show-down">
                 <a href="#">
                     <ham></ham>
@@ -18,7 +18,7 @@
     </ul>
 
     <div class="search brand third txt-center large">
-        <div><a href=" #">Storynory</a></div>
+        <div><a href="/">Storynory</a></div>
     </div>
     <div class="search third">
         <form class="-p-x j-bk-prime"><input class="white -p-x" type="search" placeholder="search" /></form>
